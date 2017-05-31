@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7B0A206C1EDF060300A2142F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A206B1EDF060300A2142F /* AppDelegate.swift */; };
-		7B0A206E1EDF060300A2142F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A206D1EDF060300A2142F /* ViewController.swift */; };
+		7B0A206E1EDF060300A2142F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A206D1EDF060300A2142F /* LoginVC.swift */; };
 		7B0A20711EDF060300A2142F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A206F1EDF060300A2142F /* Main.storyboard */; };
 		7B0A20731EDF060300A2142F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A20721EDF060300A2142F /* Assets.xcassets */; };
 		7B0A20761EDF060300A2142F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A20741EDF060300A2142F /* LaunchScreen.storyboard */; };
+		7B0A207E1EDF071600A2142F /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A207D1EDF071600A2142F /* MusicListVC.swift */; };
+		7B0A20801EDF103900A2142F /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A207F1EDF103900A2142F /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B0A20681EDF060300A2142F /* SwappingScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0A206B1EDF060300A2142F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B0A206D1EDF060300A2142F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B0A206D1EDF060300A2142F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		7B0A20701EDF060300A2142F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B0A20721EDF060300A2142F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B0A20751EDF060300A2142F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B0A20771EDF060300A2142F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B0A207D1EDF071600A2142F /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		7B0A207F1EDF103900A2142F /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		7B0A205F1EDF060300A2142F = {
 			isa = PBXGroup;
 			children = (
+				7B0A207F1EDF103900A2142F /* PlaySongVC.swift */,
 				7B0A206A1EDF060300A2142F /* SwappingScreen */,
 				7B0A20691EDF060300A2142F /* Products */,
 			);
@@ -55,11 +60,12 @@
 			isa = PBXGroup;
 			children = (
 				7B0A206B1EDF060300A2142F /* AppDelegate.swift */,
-				7B0A206D1EDF060300A2142F /* ViewController.swift */,
+				7B0A206D1EDF060300A2142F /* LoginVC.swift */,
 				7B0A206F1EDF060300A2142F /* Main.storyboard */,
 				7B0A20721EDF060300A2142F /* Assets.xcassets */,
 				7B0A20741EDF060300A2142F /* LaunchScreen.storyboard */,
 				7B0A20771EDF060300A2142F /* Info.plist */,
+				7B0A207D1EDF071600A2142F /* MusicListVC.swift */,
 			);
 			path = SwappingScreen;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B0A206E1EDF060300A2142F /* ViewController.swift in Sources */,
+				7B0A207E1EDF071600A2142F /* MusicListVC.swift in Sources */,
+				7B0A20801EDF103900A2142F /* PlaySongVC.swift in Sources */,
+				7B0A206E1EDF060300A2142F /* LoginVC.swift in Sources */,
 				7B0A206C1EDF060300A2142F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
